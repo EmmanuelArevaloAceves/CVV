@@ -8,15 +8,15 @@ This project showcases my profile as a **Systems Engineering student, Digital De
 
 ## 🚀 Features
 
-- 🌙 Dark / Light mode toggle
-- 🌎 Spanish / English dynamic translation
-- 💾 Language & theme persistence using LocalStorage
-- 📊 GitHub API integration (recent repositories)
-- 📋 Copy email / phone buttons
-- 🧲 Magnetic hover button effects
-- 🎯 Scroll reveal animations
-- 🎨 Premium gradient background with anti-banding fix
-- 📱 Fully responsive design
+- 🌙 Dark / Light mode toggle  
+- 🌎 Spanish / English dynamic translation  
+- 💾 Language & theme persistence using LocalStorage  
+- 📊 GitHub API integration (recent repositories)  
+- 📋 Copy email / phone buttons  
+- 🧲 Magnetic hover button effects  
+- 🎯 Scroll reveal animations  
+- 🎨 Premium gradient background with anti-banding fix  
+- 📱 Fully responsive design  
 
 ---
 
@@ -32,16 +32,16 @@ This project showcases my profile as a **Systems Engineering student, Digital De
 
 ## 📂 Project Structure
 
-
+```
 cv/
 │
 ├── index.html
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── main.js
+│   └── main.js
 └── README.md
-
+```
 
 ---
 
@@ -53,135 +53,128 @@ Text elements use:
 
 ```html
 data-i18n="key_name"
+```
 
-Translations are managed in main.js:
+Translations are managed in `main.js`:
 
+```javascript
 const translations = {
   es: { ... },
   en: { ... }
 }
+```
 
-✔ Language is stored in LocalStorage
-✔ Automatically applied on page reload
-✔ Toggle button switches between Spanish and English
+✔ Language is stored in LocalStorage  
+✔ Automatically applied on page reload  
+✔ Toggle button switches between Spanish and English  
 
-🌗 Theme System
+---
+
+## 🌗 Theme System
 
 Theme switching is handled using:
 
+```html
 data-theme="dark"
 data-theme="light"
+```
 
-✔ Stored in LocalStorage
-✔ Dynamic icon update
-✔ Smooth visual transition
+✔ Stored in LocalStorage  
+✔ Dynamic icon update  
+✔ Smooth visual transition  
 
 ---
 
-🔗 GitHub Integration
+## 🔗 GitHub Integration
 
 The CV dynamically fetches recent repositories using:
 
+```
 https://api.github.com/users/{username}/repos
+```
 
 Displays:
 
-Repository name
-
-Description
-
-Main language
-
-Last update date
+- Repository name  
+- Description  
+- Main language  
+- Last update date  
 
 Includes:
 
-Rate limit handling
-
-Fallback for empty descriptions
-
----
-
-🎨 UI Design
-
-Glass morphism cards
-
-Soft shadows and modern spacing
-
-Gradient background with noise overlay (prevents banding lines)
-
-Clean navigation pills
-
-Responsive grid layout
+- Rate limit handling  
+- Fallback for empty descriptions  
 
 ---
 
-📱 Responsive Design
+## 🎨 UI Design
+
+- Glass morphism cards  
+- Soft shadows and modern spacing  
+- Gradient background with noise overlay (prevents banding lines)  
+- Clean navigation pills  
+- Responsive grid layout  
+
+---
+
+## 📱 Responsive Design
 
 Optimized for:
 
-Desktop
-
-Tablet
-
-Mobile
+- Desktop  
+- Tablet  
+- Mobile  
 
 Built with:
 
-CSS Grid
-
-Flexbox
-
-Media queries
+- CSS Grid  
+- Flexbox  
+- Media queries  
 
 ---
 
-📦 How to Run Locally
+## 📦 How to Run Locally
 
 Clone the repository:
 
+```bash
 git clone https://github.com/yourusername/cv.git
+```
 
-Open in VS Code
-
-Use Live Server
-
-Open in browser
-
----
-
-📌 Future Improvements
-
-Smooth animated language transitions
-
-Project preview modals
-
-Contact form backend integration
-
-Automatic PDF generation
-
-Animated skill charts
+Open in VS Code  
+Use Live Server  
+Open in browser  
 
 ---
 
-👨‍💻 Author
+## 📌 Future Improvements
 
-Emmanuel Alejandro Arévalo Aceves
-
-Systems Engineering Student
-Digital Designer
-Junior Web Developer
-English Level: B2
-
-GitHub:
-https://github.com/EmmanuelArevaloAceves
-
-LinkedIn:
-https://www.linkedin.com/in/emmanuel-alejandro-arevalo-aceves/
+- Smooth animated language transitions  
+- Project preview modals  
+- Contact form backend integration  
+- Automatic PDF generation  
+- Animated skill charts  
 
 ---
 
-📜 License
+## 👨‍💻 Author
 
-Personal portfolio project.
+**Emmanuel Alejandro Arévalo Aceves**
+
+Systems Engineering Student  
+Digital Designer  
+Junior Web Developer  
+English Level: B2  
+
+GitHub:  
+https://github.com/EmmanuelArevaloAceves  
+
+LinkedIn:  
+https://www.linkedin.com/in/emmanuel-alejandro-arevalo-aceves/  
+
+---
+
+## 📜 License
+
+Personal portfolio project.  
 Free to use for learning purposes.
