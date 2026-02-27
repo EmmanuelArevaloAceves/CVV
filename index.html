@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title data-i18n="doc_title">Emmanuel A. Arévalo | CV Interactivo</title>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<div class="container topbar-inner">
+<div aria-label="Encabezado" class="brand">
+<span aria-hidden="true" class="dot"></span>
+<span class="brand-name">CV</span>
+</div>
+<nav aria-label="Navegación" class="nav-pills">
+<a class="pilllink" data-i18n="nav_about" href="#sobre-mi">Sobre mí</a>
+<a class="pilllink" data-i18n="nav_skills" href="#habilidades">Habilidades</a>
+<a class="pilllink" data-i18n="nav_experience" href="#experiencia">Experiencia</a>
+<a class="pilllink" data-i18n="nav_education" href="#formacion">Formación</a>
+<a class="pilllink" data-i18n="nav_projects" href="#proyectos">Proyectos</a>
+<a class="pilllink" data-i18n="nav_github" href="#github">GitHub</a>
+<a class="pilllink" data-i18n="nav_contact" href="#contacto">Contacto</a>
+</nav>
+<div class="top-actions">
+<button aria-label="Cambiar tema" class="iconbtn" id="btnTheme" title="Modo oscuro / claro" type="button">
+<span class="material-symbols-outlined" id="themeIcon">dark_mode</span>
+</button>
+<button class="lang-btn iconbtn" id="langToggle" type="button">
+          🌎 <span id="langText">ENG</span>
+</button>
+<button aria-label="Modo enfoque" class="iconbtn" id="btnFocus" title="Modo enfoque (reduce brillos)" type="button">
+<span class="material-symbols-outlined">blur_on</span>
+</button>
+</div>
+</div>
+</header>
+<main class="main">
+<section class="hero">
+<div class="container hero-grid">
+<div class="hero-card">
+<div class="hero-top">
+<img alt="Foto de Emmanuel" class="avatar" loading="lazy" src="https://lh3.googleusercontent.com/a/ACg8ocKRlfM1L06661t8DNUBKqMx-gL87LW-dU8r5VjSTuUrrM8HnXg=s360-c-no"/>
+<div class="hero-title">
+<h1>Emmanuel Alejandro Arevalo Aceves</h1>
+<p class="hero-role" data-i18n="hero_role">Desarrollador Junior · Diseñador Digital · Estudiante de Ingeniería en Sistemas</p>
+<div class="meta-row">
+<span class="tag"><i class="fa-solid fa-location-dot"></i> Guadalajara, Jalisco</span>
+<span class="tag" data-i18n="tag_english_b2"><i class="fa-solid fa-language"></i> Inglés B2</span>
+</div>
+<div class="meta-row">
+<span class="tag" data-i18n="tag_work"><i class="fa-solid fa-briefcase"></i> Ay Compro (2020–Actualidad)</span>
+</div>
+</div>
+</div>
+<div class="hero-actions">
+<a class="btn primary magnetic" href="#contacto"><i class="fa-regular fa-paper-plane"></i> <span data-i18n="btn_quick_contact">Contacto rápido</span></a>
+<a class="btn ghost magnetic" href="#github"><i class="fa-brands fa-github"></i> <span data-i18n="btn_github_activity">Ver actividad GitHub</span></a>
+<a class="btn ghost magnetic" download="" href="https://drive.google.com/file/d/1n-TiqDKLej-3XQndgmEQtGEQiqOkDXah/view?usp=sharing"><i class="fa-solid fa-download"></i> <span data-i18n="btn_download_cv">Descargar CV (PDF)</span></a>
+</div>
+<div class="hero-actions small">
+<button class="btn tiny ghost magnetic" data-copy="emmanuel.arevalo.trabajo@gmail.com" id="btnCopyEmail" type="button"><i class="fa-regular fa-copy"></i> <span data-i18n="btn_copy_email">Copiar email</span></button>
+<button class="btn tiny ghost magnetic" data-copy="+52 33 2506 9998" id="btnCopyPhone" type="button"><i class="fa-regular fa-copy"></i> <span data-i18n="btn_copy_phone">Copiar teléfono</span></button>
+<a class="btn tiny ghost magnetic" href="https://www.linkedin.com/in/emmanuel-alejandro-arevalo-aceves/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a class="btn tiny ghost magnetic" href="https://github.com/EmmanuelArevaloAceves" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+<a class="btn tiny ghost magnetic" href="https://drive.google.com/drive/folders/1i3fiCDHnfpszGmlCqukDuebt4IjmPXp9?usp=sharing" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-certificate"></i> <span data-i18n="btn_certificates">Certificados</span></a>
+</div>
+</div>
+<div class="hero-side">
+<div class="card">
+<h3 class="card-title" data-i18n="card_stack_title">Stack</h3>
+<p class="muted" data-i18n="card_stack_sub">Web · Diseño · Software</p>
+<p class="muted" data-i18n="card_stack_desc">Desarrollo, mantenimiento y optimización de plataformas + creación de contenido y producto.</p>
+</div>
+<div class="card">
+<h3 class="card-title" data-i18n="card_tools_title">Herramientas</h3>
+<p class="muted" data-i18n="card_tools_list"><strong>VS Code · IntelliJ · Android Studio</strong></p>
+<p class="muted" data-i18n="card_tools_more">También: Visual Studio 2022, Docker (básico) y control de versiones con Git/GitHub.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section reveal" id="sobre-mi">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="about_title">Sobre mí</h2>
+</div>
+<div class="grid two">
+<div class="card">
+<p class="muted" data-i18n="about_p1">
+              Estudiante de Ingeniería en Sistemas Computacionales con carrera técnica en Diseño Gráfico Digital.
+              Colaboro en Ay Compro como diseñador, fotógrafo y desarrollador web, participando en la optimización
+              continua del sitio junto con el proveedor externo. Apasionado por la tecnología, con habilidades en
+              programación, diseño, mantenimiento de equipos y soluciones creativas en plataformas digitales.
+              Nivel de inglés B2. Busco adquirir más experiencia profesional en desarrollo de software y soluciones tecnológicas.
+            </p>
+</div>
+<div class="card">
+<h3 class="card-title" data-i18n="about_value_title">Lo que aporto</h3>
+<ul class="bullets">
+<li data-i18n="about_value_1">Despliegue y mejora continua de funcionalidades web.</li>
+<li data-i18n="about_value_2">Diseño visual + contenido de producto (foto y publicidad).</li>
+<li data-i18n="about_value_3">Soporte técnico (Windows/Linux, diagnóstico y mantenimiento).</li>
+<li data-i18n="about_value_4">Mentalidad “producto”: medir, iterar, optimizar.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="section reveal" id="habilidades">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="skills_title">Habilidades</h2>
+</div>
+<div class="grid two">
+<div class="card">
+<h3 class="card-title" data-i18n="skills_tech_title">Técnicas</h3>
+<div class="chips">
+<span class="chip" data-i18n="chip_java_basic">Java (básico)</span>
+<span class="chip" data-i18n="chip_cpp_basic">C++ (básico)</span>
+<span class="chip" data-i18n="chip_csharp_basic">C# (básico)</span>
+<span class="chip" data-i18n="chip_python_basic">Python (básico)</span>
+<span class="chip" data-i18n="chip_htmlcss_solid">HTML/CSS (sólido)</span>
+<span class="chip">JavaScript</span>
+<span class="chip">Git / GitHub</span>
+<span class="chip">Docker (básico)</span>
+<span class="chip">SQL (HeidiSQL)</span>
+<span class="chip">IntelliJ IDEA</span>
+<span class="chip">VS Code</span>
+<span class="chip">Visual Studio 2022</span>
+<span class="chip">Android Studio</span>
+<span class="chip">Photoshop</span>
+<span class="chip">Illustrator</span>
+<span class="chip">Premiere</span>
+<span class="chip">Lightroom</span>
+<span class="chip">Canva</span>
+<span class="chip" data-i18n="chip_windows_linux">Windows &amp; Linux</span>
+<span class="chip" data-i18n="chip_cmd_diag">CMD (diagnóstico)</span>
+<span class="chip" data-i18n="chip_pc_maintenance">Mantenimiento / limpieza de PC</span>
+<span class="chip" data-i18n="chip_virtual_machines">Máquinas virtuales</span>
+<span class="chip">Excel · Word · PowerPoint</span>
+</div>
+</div>
+<div class="card">
+<h3 class="card-title" data-i18n="skills_soft_title">Blandas</h3>
+<ul class="bullets">
+<li data-i18n="skills_soft_1">Comunicación efectiva y exposición en público.</li>
+<li data-i18n="skills_soft_2">Trabajo en equipo y proactividad.</li>
+<li data-i18n="skills_soft_3">Análisis crítico y resolución de problemas.</li>
+<li data-i18n="skills_soft_4">Organización y atención al detalle.</li>
+</ul>
+<div class="divider"></div>
+<h3 class="card-title" data-i18n="skills_lang_title">Idiomas</h3>
+<div class="lang">
+<div class="lang-row">
+<span class="lang-name" data-i18n="skills_lang_name">Inglés (B2)</span>
+<span class="lang-level" data-i18n="skills_lang_level">Lectura · Conversación · Intermedia</span>
+</div>
+<div class="bar"><span style="width:70%"></span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section reveal" id="experiencia">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="experience_title">Experiencia</h2>
+</div>
+<div class="card">
+<div class="exp-head">
+<div>
+<h3 class="card-title" data-i18n="exp_role_title">Ay Compro — Diseñador y Desarrollador Web</h3>
+<p class="muted tiny"><span data-i18n="exp_date">2020 – Actualidad</span><br/>
+</p>
+</div>
+</div>
+<div class="grid two">
+<div class="card inner">
+<h4 class="inner-title" data-i18n="exp_resp_title">Responsabilidades</h4>
+<ul class="bullets">
+<li data-i18n="exp_resp_1">Diseño visual de productos y contenido publicitario.</li>
+<li data-i18n="exp_resp_2">Fotografía profesional de productos para redes y tienda online.</li>
+<li data-i18n="exp_resp_3">Desarrollo y mantenimiento de funcionalidades web.</li>
+<li data-i18n="exp_resp_4">Retroalimentación técnica al proveedor del sitio para mejoras.</li>
+</ul>
+</div>
+<div class="card inner">
+<h4 class="inner-title" data-i18n="exp_focus_title">Enfoque</h4>
+<p class="muted" data-i18n="exp_focus_p">
+                Mejora de inyección técnica + criterio visual: mantener el sitio estable
+                y asegurar contenido de producto consistente y de calidad.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section reveal" id="formacion">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="education_title">Formación</h2>
+</div>
+<div class="grid two">
+<div class="card">
+<h3 class="card-title" data-i18n="edu_degree_title">Ingeniería en Sistemas Computacionales</h3>
+<p class="muted" data-i18n="edu_degree_school">Instituto Tecnológico Superior de Jalisco · 2023 – 2027</p>
+<p class="muted tiny" data-i18n="edu_in_progress">En curso</p>
+</div>
+<div class="card">
+<h3 class="card-title" data-i18n="edu_design_title">Diseño Gráfico Digital</h3>
+<p class="muted" data-i18n="edu_design_cert">Carrera técnica (certificado)</p>
+</div>
+<a class="btn ghost magnetic" href="https://drive.google.com/drive/folders/1i3fiCDHnfpszGmlCqukDuebt4IjmPXp9?usp=sharing" rel="noopener noreferrer" style="margin-top:.8rem;" target="_blank"><i class="fa-solid fa-certificate"></i> <span data-i18n="btn_view_certificates">Ver certificados</span></a>
+</div>
+</div>
+</section>
+<section class="section reveal" id="proyectos">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="projects_title">Proyectos</h2>
+</div>
+<div class="projects-grid">
+<article class="card project">
+<div class="proj-head">
+<h3 class="card-title">Android-studio-app</h3>
+<span class="pill">Kotlin</span>
+</div>
+<p class="muted" data-i18n="proj1_desc">Proyecto Android base para administración de fábrica (inputs/outputs).</p>
+<a class="btn ghost magnetic" href="https://github.com/EmmanuelArevaloAceves/Android-studio-app" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github"></i> <span data-i18n="proj_view_github">Ver en GitHub</span></a>
+</article>
+<article class="card project">
+<div class="proj-head">
+<h3 class="card-title">PW TarjetaPersonal <br/>ApellidoNombre</h3>
+<span class="pill">CSS</span>
+</div>
+<p class="muted" data-i18n="proj2_desc">Portafolio / carta de presentación con estilo UI.</p>
+<a class="btn ghost magnetic" href="https://github.com/EmmanuelArevaloAceves" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github"></i> <span data-i18n="proj_view_repos">Ver repos</span></a>
+</article>
+<article class="card project">
+<div class="proj-head">
+<h3 class="card-title">Python-progress</h3>
+<span class="pill">Python</span>
+</div>
+<p class="muted" data-i18n="proj3_desc">Reto y progreso de ejercicios prácticos en Python.</p>
+<a class="btn ghost magnetic" href="https://github.com/EmmanuelArevaloAceves" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github"></i> <span data-i18n="proj_view_repos">Ver repos</span></a>
+</article>
+</div>
+</div>
+</section>
+<section class="section reveal" id="github">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="github_title">GitHub · Línea de aprendizaje</h2>
+</div>
+<div class="card">
+<div class="repos-head">
+<h3 class="card-title" data-i18n="github_recent_repos">Repos recientes</h3>
+<span class="pill" id="repoCount">cargando…</span>
+</div>
+<div aria-busy="true" class="repo-list" id="repoList"></div>
+<div class="divider"></div>
+<h3 class="card-title" data-i18n="github_featured_stack">Stack destacado</h3>
+<div class="stack-row">
+<span class="pill">Java</span>
+<span class="pill">C++</span>
+<span class="pill">C#</span>
+<span class="pill">SQL</span>
+<span class="pill">Web</span>
+<span class="pill">Design</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section reveal" id="contacto">
+<div class="container">
+<div class="section-head">
+<h2 data-i18n="contact_title">Contacto</h2>
+</div>
+<div class="grid two">
+<div class="card">
+<p class="muted"><span data-i18n="contact_email_label">Email:</span> <a class="link" href="mailto:emmanuel.arevalo.trabajo@gmail.com">emmanuel.arevalo.trabajo@gmail.com</a></p>
+<div class="minirow" style="margin-top:.9rem;">
+<button class="btn ghost magnetic" data-copy="emmanuel.arevalo.trabajo@gmail.com" id="btnCopyEmail2" type="button"><i class="fa-regular fa-copy"></i> <span data-i18n="btn_copy_email">Copiar email</span></button>
+<a class="btn ghost magnetic" href="https://drive.google.com/drive/folders/1i3fiCDHnfpszGmlCqukDuebt4IjmPXp9?usp=sharing" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-certificate"></i> <span data-i18n="btn_certificates">Certificados</span></a>
+</div>
+</div>
+<div class="card">
+<h3 class="card-title" data-i18n="contact_networks_title">Redes</h3>
+<div class="minirow">
+<a class="btn ghost magnetic" href="https://github.com/EmmanuelArevaloAceves" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+<a class="btn ghost magnetic" href="https://www.linkedin.com/in/emmanuel-alejandro-arevalo-aceves/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div aria-atomic="true" aria-live="polite" class="toast" id="toast" role="status"></div>
+</main>
+<footer class="footer">
+<div class="container footer-inner">
+<button class="btn ghost magnetic" id="btnTop" type="button">
+<span class="material-symbols-outlined">arrow_upward</span> <span data-i18n="btn_back_to_top">Ir al inicio</span>
+</button>
+<p class="muted tiny">© <span id="year"></span> Emmanuel Alejandro Arévalo Aceves</p>
+</div>
+</footer>
+<script defer="" src="js/main.js"></script>
+</body>
+</html>
