@@ -76,6 +76,8 @@ data-theme="light"
 ✔ Dynamic icon update
 ✔ Smooth visual transition
 
+---
+
 🔗 GitHub Integration
 
 The CV dynamically fetches recent repositories using:
@@ -98,6 +100,8 @@ Rate limit handling
 
 Fallback for empty descriptions
 
+---
+
 🎨 UI Design
 
 Glass morphism cards
@@ -109,6 +113,8 @@ Gradient background with noise overlay (prevents banding lines)
 Clean navigation pills
 
 Responsive grid layout
+
+---
 
 📱 Responsive Design
 
@@ -128,6 +134,8 @@ Flexbox
 
 Media queries
 
+---
+
 📦 How to Run Locally
 
 Clone the repository:
@@ -140,6 +148,8 @@ Use Live Server
 
 Open in browser
 
+---
+
 📌 Future Improvements
 
 Smooth animated language transitions
@@ -151,6 +161,8 @@ Contact form backend integration
 Automatic PDF generation
 
 Animated skill charts
+
+---
 
 👨‍💻 Author
 
@@ -167,19 +179,9 @@ https://github.com/EmmanuelArevaloAceves
 LinkedIn:
 https://www.linkedin.com/in/emmanuel-alejandro-arevalo-aceves/
 
+---
+
 📜 License
 
 Personal portfolio project.
 Free to use for learning purposes.
-
-
----
-
-Si quieres, te hago una versión más estratégica orientada a:
-
-- 🧠 Junior Backend Developer  
-- 🚀 Full Stack Developer  
-- 📊 Software Engineer Intern  
-- 🎯 Tech + Business profile  
-
-Solo dime qué perfil quieres proyectar.
